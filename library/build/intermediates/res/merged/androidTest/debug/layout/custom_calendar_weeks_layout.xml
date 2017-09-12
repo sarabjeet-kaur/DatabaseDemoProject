@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/weekTitlePaddingTop"
+    android:paddingTop="@dimen/weekTitlePaddingBottom"
+    android:tag="weekRow0"
+    android:weightSum="7">
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek1"
+        android:padding="@dimen/day_view_margin"
+        android:textColor="@color/color_week"
+        android:text="Sun" />
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek2"
+        android:padding="@dimen/day_view_margin"
+        android:textColor="@color/color_week"
+        android:text="Mon" />
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek3"
+        android:padding="@dimen/day_view_margin"
+        android:textColor="@color/color_week"
+        android:text="Tue" />
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek4"
+        android:padding="@dimen/day_view_margin"
+        android:textColor="@color/color_week"
+        android:text="Wed" />
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek5"
+        android:padding="@dimen/day_view_margin"
+        android:textColor="@color/color_week"
+        android:text="Thu" />
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek6"
+        android:textColor="@color/color_week"
+        android:text="Fri" />
+
+    <TextView
+        style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:padding="@dimen/day_view_margin"
+        android:tag="dayOfWeek7"
+        android:textColor="@color/color_week"
+        android:text="Sat" />
+</LinearLayout>

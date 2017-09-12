@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/drawable/button_previous_month_selector.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/drawable/button_previous_month_selector.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/drawable/button_next_month_selector.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/drawable/button_next_month_selector.xml"
+    }
+]

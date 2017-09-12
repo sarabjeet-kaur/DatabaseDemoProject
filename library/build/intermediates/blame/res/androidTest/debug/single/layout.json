@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/custom_calendar_weeks_layout.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/custom_calendar_weeks_layout.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/custom_calendar_layout_new.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/custom_calendar_layout_new.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/roboto_calendar_week_4.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/roboto_calendar_week_4.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/custom_calendar_layout.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/custom_calendar_layout.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/roboto_calendar_week_1.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/roboto_calendar_week_1.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/roboto_calendar_week_6.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/roboto_calendar_week_6.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/roboto_calendar_week_3.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/roboto_calendar_week_3.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/roboto_calendar_week_2.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/roboto_calendar_week_2.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/custom_calendar_title_layout.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/custom_calendar_title_layout.xml"
+    },
+    {
+        "merged": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/res/merged/androidTest/debug/layout/roboto_calendar_week_5.xml",
+        "source": "/home/sarabjjeet/AndroidStudioProjects/DatabaseDemoProject/library/build/intermediates/bundles/debug/res/layout/roboto_calendar_week_5.xml"
+    }
+]
