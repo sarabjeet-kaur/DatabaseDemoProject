@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.res.ResourcesCompat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -63,7 +62,6 @@ public class DetailFragment extends Fragment implements View.OnClickListener{
        date=bundle.getString("date");
 
        txt_current_date.setText(date);
-       Log.e("date in detail frag",date);
 
        events = db.getAllDataWithDateType(date,type);
        customAdapter=new CustomAdapter(events,this.getActivity());

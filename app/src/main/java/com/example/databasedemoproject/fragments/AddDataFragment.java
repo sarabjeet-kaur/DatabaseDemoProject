@@ -107,17 +107,12 @@ public class AddDataFragment extends Fragment implements View.OnClickListener{
     }
 
     public void insert(){
-        Log.e("date1",date1);
-        Log.e("time1",time1);
-        Log.e("title",title);
-        Log.e("description",description);
         if(rb_formal.isChecked()){
             type="formal";
         }
         else if(rb_informal.isChecked()){
             type="informal";
         }
-       Log.e("type",type);
         db.addData(new DataModel(date1,time1,title,description,type));
     }
 

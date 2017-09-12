@@ -67,16 +67,7 @@ public class CalendarFragment extends Fragment implements View.OnClickListener, 
         customCalendarView.setCalendarListener(this);
         db = new DatabaseHandler(this.getActivity());
 
-        List<String> dates = db.getDate();
-        for (String cn : dates) {
-            Log.e("Contacts: ", cn);
-        }
-
-      //  String myDateFormat = "dd MMM yyyy";
-       // SimpleDateFormat sdf = new SimpleDateFormat(myDateFormat);
       date1=  utility.convertDateToString(myCalendar.getTime());
-       // date1 = sdf.format(myCalendar.getTime());
-
         txt_current_date.setText("Today," + date1);
 
         events = new ArrayList<>();
@@ -104,7 +95,6 @@ public class CalendarFragment extends Fragment implements View.OnClickListener, 
 
         Bundle bundle = new Bundle();
         bundle.putString("date", date1);
-        Log.e("date in calendar frag", date1);
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction().addToBackStack(null);
         fragmentTransaction.setCustomAnimations(R.anim.right_in,R.anim.left_out);

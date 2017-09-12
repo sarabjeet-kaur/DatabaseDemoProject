@@ -32,7 +32,6 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-
     // Creating Tables
     @Override
     public void onCreate(SQLiteDatabase db) {
@@ -108,44 +107,14 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         if (cursor != null)
             cursor.moveToFirst();
 
-        // looping through all rows and adding to list
         if (cursor.moveToFirst()) {
             do {
-              /*  DataModel dataModel = new DataModel();
-                dataModel.setDate(cursor.getString(0));*/
-                // Adding event  to list
+
                 dataList.add(cursor.getString(0));
             } while (cursor.moveToNext());
         }
 
         // return event list
         return dataList;
-    }
-
-    public List<DataModel> getAllData() {
-        List<DataModel> contactList = new ArrayList<DataModel>();
-        // Select All Query
-        String selectQuery = "SELECT  * FROM " + TABLE_EVENT;
-
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery, null);
-
-        // looping through all rows and adding to list
-        if (cursor.moveToFirst()) {
-            do {
-                DataModel contact = new DataModel();
-                contact.setId(Integer.parseInt(cursor.getString(0)));
-                contact.setDate(cursor.getString(1));
-                contact.setTime(cursor.getString(2));
-                contact.setTitle(cursor.getString(3));
-                contact.setDescription(cursor.getString(4));
-                contact.setType(cursor.getString(5));
-                // Adding contact to list
-                contactList.add(contact);
-            } while (cursor.moveToNext());
-        }
-
-        // return contact list
-        return contactList;
     }
 }
